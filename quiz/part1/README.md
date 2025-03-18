@@ -7,7 +7,7 @@ Sabar jangan langsung ke object dulu, kalian harus asah logic lagi wkwk
 //cek apakah angka yang dikirim adalah angka prima atau bukan?
 //cek google bagi yang ga tau apa itu angka prima
 function angkaPrima(angka) {
-  
+  // you can only write your code here!
 }
 
 // TEST CASES
