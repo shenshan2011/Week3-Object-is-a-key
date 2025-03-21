@@ -23,18 +23,18 @@ function graduates (students) {
     let res = {};
 
     for (let i = 0; i < students.length; i++) {
-        let sis = students[i];
+        let siswa = students[i];
 
-        if (sis.score >= 75) {
-            let namakelas = sis.class;
+        if (siswa.score >= 75) {
+            let namakelas = siswa.class;
 
             if (!res[namakelas]) {
                 res[namakelas] = [];
             }
 
             res[namakelas].push({
-                name: sis.name,
-                score: sis.score
+                name: siswa.name,
+                score: siswa.score
             });
         }
     }
